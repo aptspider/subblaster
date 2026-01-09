@@ -21,7 +21,7 @@ Install the latest binary directly using Go:
 
 ```
 
-go install github.com/aptspider/subblaster/v2@v2.0.3
+go install github.com/aptspider/subblaster/v2@v2.1.0
 
 ````
 **Usage** 
