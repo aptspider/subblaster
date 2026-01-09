@@ -24,7 +24,22 @@ Install the latest binary directly using Go:
 go install github.com/aptspider/subblaster/v2@v2.0.3
 
 ````
+Usage 
 
+Standard 
+
+```
+subblaster -d google.com -w best-dns-wordlist.txt -t 500 -o results.txt
+
+````
+
+Stealth 
+
+```
+
+subblaster -d target.com -w best-dns-wordlist.txt -t 50 -jitter 1000
+
+````
 
 wordlist link 
 
