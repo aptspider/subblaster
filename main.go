@@ -36,7 +36,7 @@ func main() {
 
     if targetDomain == "" || wordlistPath == "" {
         printBanner()
-        fmt.Println("[!] Usage: ./subblaster -d google.com -w wordlist.txt -jitter 500")
+        fmt.Println("[!] Usage: subblaster -d google.com -w wordlist.txt -jitter 500")
         os.Exit(1)
     }
 
