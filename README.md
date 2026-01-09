@@ -6,7 +6,7 @@ SubBlaster is a high-performance subdomain enumeration tool designed for active 
 
 It features a custom **Anti-Ban Engine (Jitter)** that randomizes request timing, allowing you to scan sensitive targets without triggering WAFs or Rate Limits.
 
-## 🔥 Key Features
+##  Key Features
 
 - **Pure Brute Force:** No API keys, no logs. Direct DNS querying for fresh results.
 - **WAF Evasion:** Built-in "Jitter" mode adds randomized delays to mimic human traffic.
@@ -24,7 +24,7 @@ Install the latest binary directly using Go:
 go install github.com/aptspider/subblaster/v2@v2.0.3
 
 ````
-Usage 
+**Usage** 
 
 Standard 
 
@@ -33,7 +33,7 @@ subblaster -d google.com -w best-dns-wordlist.txt -t 500 -o results.txt
 
 ````
 
-Stealth 
+**Stealth** 
 
 ```
 
@@ -41,7 +41,7 @@ subblaster -d target.com -w best-dns-wordlist.txt -t 50 -jitter 1000
 
 ````
 
-wordlist link 
+**wordlist link**
 
 
 ```
